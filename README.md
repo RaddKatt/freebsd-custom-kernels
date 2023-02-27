@@ -2,6 +2,8 @@
 
 These are some custom kernel configurations that I put together for FreeBSD.
 
+First, make sure to back up the working kernel.
+
 Build the kernel using the `make buildkernel` command with `KERNCONF=<ident>`:
 ```
 # cd /usr/src
