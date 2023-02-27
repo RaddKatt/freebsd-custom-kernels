@@ -19,7 +19,7 @@ Build the kernel using the `make buildkernel` command with `KERNCONF=<ident>`:
 Install the kernel using the `make installkernel` command with `KERNCONF=<ident>`:
 ```
 # cd /usr/src
-# make KERNCONF=ASUS_CHROMEBOX_CN62 installkernel
+# make KERNCONF=ASUS_CHROMEBOX_CN62 KODIR=/boot/kernel.ASUS_CHROMEBOX_CN62 installkernel
 
 ...
 
