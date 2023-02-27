@@ -18,6 +18,14 @@ Install the kernel using the `make installkernel` command:
 ```
 # cd /usr/src
 # make KERNCONF=<ident> installkernel
+
+...
+
+--------------------------------------------------------------
+>>> Installing kernel ASUS_CHROMEBOX_CN62 completed on Sun Feb 26 21:36:25 EST 2023
+--------------------------------------------------------------
 ```
+
+Reboot. If there are problems, boot FreeBSD with your backup kernel, and troubleshoot.
 
 [FreeBSD Handbook](https://docs.freebsd.org/en/books/developers-handbook/kernelbuild/)
