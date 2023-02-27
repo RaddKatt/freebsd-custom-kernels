@@ -14,10 +14,10 @@ Build the kernel using the `make buildkernel` command with `KERNCONF=<ident>`:
 --------------------------------------------------------------
 ```
 
-Install the kernel using the `make installkernel` command:
+Install the kernel using the `make installkernel` command with `KERNCONF=<ident>`:
 ```
 # cd /usr/src
-# make KERNCONF=<ident> installkernel
+# make KERNCONF=ASUS_CHROMEBOX_CN62 installkernel
 
 ...
 
